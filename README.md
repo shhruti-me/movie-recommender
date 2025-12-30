@@ -40,7 +40,8 @@ Explanation
 Recommended because you liked “Sita Ramam (2022)” and “Dear Comrade (2019)”, which share Drama and Romance elements with this movie.
 
 **Project Structure**
-<img width="321" height="459" alt="image" src="https://github.com/user-attachments/assets/504bc12c-b770-419d-9cc2-a8510e84ff78" />
+
+    <img width="321" height="459" alt="image" src="https://github.com/user-attachments/assets/504bc12c-b770-419d-9cc2-a8510e84ff78" />
 
 
 **Dataset**
@@ -64,13 +65,13 @@ Due to licensing and size constraints, the dataset is not included in this repos
 - pip install -r requirements.txt
 
 **How to Run**
-    python main.py
+python main.py
 
 
 **You will be prompted to enter:**
-Movies you like
-Movies you dislike
-The system will then output recommended movies along with explanations.
+    Movies you like
+    Movies you dislike
+    The system will then output recommended movies along with explanations.
 
 **This project focuses on:**
 - Explicit negative feedback
@@ -83,5 +84,6 @@ The system will then output recommended movies along with explanations.
 - Rating-based weighting of user preferences
 - Tag-based or embedding-based semantic features
 - Web interface using Flask or FastAPI
+
 
 
