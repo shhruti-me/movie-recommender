@@ -17,23 +17,23 @@ Unlike basic genre-based recommenders that often collapse to generic results (e.
 
 **How It Works**
 
-Movie Representation
-    Movies are represented using TF-IDF–weighted genre features, including individual genres and genre pairs.
+**Movie Representation**
+- Movies are represented using TF-IDF–weighted genre features, including individual genres and genre pairs.
     
-User Preference Modeling
-    A user preference vector is built from liked and disliked movies. Repeated genre patterns across liked movies are boosted, while disliked genres are penalized.
+**User Preference Modeling**
+- A user preference vector is built from liked and disliked movies. Repeated genre patterns across liked movies are boosted, while disliked genres are penalized.
     
-Core Preference Detection
-    Genres and genre-pairs that appear consistently in the user’s liked movies are identified as core preferences.
+**Core Preference Detection**
+- Genres and genre-pairs that appear consistently in the user’s liked movies are identified as core preferences.
     
-Candidate Filtering
-    Only movies that satisfy these core preferences are considered for recommendation.
+**Candidate Filtering**
+- Only movies that satisfy these core preferences are considered for recommendation.
     
-Ranking
-    Cosine similarity is used to rank candidate movies against the user preference vector.
+**Ranking**
+- Cosine similarity is used to rank candidate movies against the user preference vector.
     
-Explanation
-    Each recommendation is explained by identifying the most similar liked movies and describing the shared genre patterns.
+**Explanation**
+- Each recommendation is explained by identifying the most similar liked movies and describing the shared genre patterns.
 
 **Example Explanation**
 - Recommended because you liked “Sita Ramam (2022)” and “Dear Comrade (2019)”, which share Drama and Romance elements with this movie.
@@ -82,6 +82,7 @@ Explanation
 - Rating-based weighting of user preferences
 - Tag-based or embedding-based semantic features
 - Web interface using Flask or FastAPI
+
 
 
 
